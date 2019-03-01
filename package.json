@@ -1,0 +1,23 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minutheresathomas/serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minutheresathomas/serverless/issues"
+  },
+  "homepage": "https://github.com/minutheresathomas/serverless#readme",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.6"
+  }
+}
