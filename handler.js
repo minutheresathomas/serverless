@@ -1,9 +1,11 @@
 'use strict';
 
 const loremIpsum = require('lorem-ipsum');
-const output = loremIpsum();
+// 
 
 module.exports.hello = async (event, context) => {
+  const output = loremIpsum();
+
   return {
     statusCode: 200,
     body: JSON.stringify({
